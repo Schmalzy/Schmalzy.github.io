@@ -12,7 +12,7 @@ This is still a work in progress. Once I have my personal site finished, I will 
 - Clean and simple design.
 - Sass enabled.
 - Automated navgiation.
-- Global Sass variables for easy theme and payout tweeks
+- Global Sass variables for easy theme and layout tweeks
 - Tagging system
 
 ## Disclaimer
