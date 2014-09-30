@@ -1,11 +1,11 @@
 // Variables
 //
-// Update the base colors and layout variables
+// Global variables for easy color and layout changes
 
 //Colors
 $base-color:            #16a085; //#0168AB; //#2574A9;
 $base-color-muted:      rgba( $base-color, .25 );
-$base-color-compliment: #F89406;
+$base-color-compliment: #F89406; //Not currenty used.
 
 $link-color-primary:    $base-color;
 $type-color-primary:    #555;
@@ -15,10 +15,10 @@ $type-color-muted:      #ccc;
 $font-size-mobile:      16px;
 $font-size-desktop:     20px; 
 
-//Break Point
-$break-point-mobile:    48rem;
-
 //Font stack
 $font-family-heading:   "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-copy:      "PT Serif", Georgia, serif;
 $font-family-code:      Menlo, Monaco, "Courier New", monospace;
+
+//Break Point 
+$break-point-mobile:    48rem; //(16px x 48rem = 768px)
