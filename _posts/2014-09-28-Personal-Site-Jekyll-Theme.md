@@ -17,6 +17,7 @@ Previously, my personal site was built on WordPress, which seemed like massive o
 
 ### Jekyll Advantages
 - No database required
+- No security concerns
 - Built-in development server
 - Built-in Sass compiling
 - Modular by nature
