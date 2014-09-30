@@ -1,0 +1,22 @@
+<header class="masthead">
+  <div class="banner"></div>
+  <div class="container">
+    <a href="/">
+  	  <img class="logo" src="/img/me.jpg" alt="Brandon Schmalz">
+    </a>
+    <ul class="nav">
+      {% assign nav_pages = (site.pages | where: "layout", "default" | sort: 'display') %}
+  	  {% for node in nav_pages %}
+  	    {% if node.title == page.title %}
+    		  <li  class="active">
+    		    <a href="{{ node.url }}">{{ node.title }}</a>
+    		  </li>
+        {% else %}
+          <li>
+            <a href="{{ node.url }}">{{ node.title }}</a>
+          </li>
+  	    {% endif %}
+  	  {% endfor %}
+    </ul>
+  </div>
+</header>

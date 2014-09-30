@@ -1,0 +1,80 @@
+// Post 
+//
+// Any post specific styles
+
+.post-title {
+  margin-bottom: 0.25rem;
+  font-family: $font-family-heading;
+}
+
+.post-list {
+  margin-top: 1.5rem;
+}
+
+.post-date {
+  color: $type-color-muted;
+  font-family: $font-family-copy;
+}
+
+.post-date,
+.post-item {
+  margin-bottom: 0.5rem;
+}
+
+.post-item {
+  font-family: $font-family-heading;
+
+	@include clearfix;
+}
+
+.post-item > a {
+  display: block;
+  margin-right: 0.5rem;
+
+  @media (min-width: $break-point-mobile) {
+    display: inline-block;
+  }
+}
+
+.post-item > a,
+.post > p a,
+.post > ul a{
+  padding-bottom: 2px;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  @media (min-width: $break-point-mobile) {
+    border-bottom: 1px solid $base-color-muted;
+
+    &:hover {
+      border-color:  $link-color-primary;
+    }
+  }
+}
+
+.post-item > .post-date {
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.tags {
+  @media (min-width: $break-point-mobile) {
+    float: right;
+  }
+}
+
+.tags-item {
+  color: #fff;
+  background-color: $base-color-muted;
+  padding: 2px 5px;
+  border-radius: 0.2rem;
+  font-size: 0.8rem;
+  font-family: $font-family-copy;
+}
+
+.tags-item + .tags-item {
+  margin-left: 0.1rem;
+}
+

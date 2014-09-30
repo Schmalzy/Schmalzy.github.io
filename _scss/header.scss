@@ -1,0 +1,90 @@
+// Header
+//
+// Styles specific to the elements contained in the header
+
+.masthead {
+  position: relative;
+  padding-top: 1.5rem;
+  text-align: center;
+
+  @media (min-width: $break-point-mobile) {
+    text-align: right;
+  }
+}
+
+.banner {
+  position: absolute;
+  top: 0;
+  height: 95px;
+  width: 100%;
+  background-color: $base-color;
+  z-index: -1;
+}
+
+.logo,
+.logo-img {
+  height: 100px;
+  width: 100px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+
+  @media (min-width: $break-point-mobile) {
+    float: left;
+  }
+}
+
+.nav {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+
+  @media (min-width: $break-point-mobile) {
+    margin: 0;
+    padding: 1.75rem 0;
+  }
+}
+
+.nav > li {
+  position: relative;
+  display: inline-block;
+}
+
+.nav > li + li {
+  margin-left: 0.5rem;
+}
+
+.nav > li > a {
+  font-family: $font-family-heading;
+  color: $link-color-primary;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+
+  &:hover {
+  	text-decoration: none;
+  }
+
+  @media (min-width: $break-point-mobile) {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0, 0.3);
+  }
+}
+
+.nav > li.active:after {
+  @media (min-width: $break-point-mobile) {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 8px solid $base-color;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid transparent;
+    left: 50%;
+    margin-left: -8px;
+  }
+}

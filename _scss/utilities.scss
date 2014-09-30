@@ -1,0 +1,7 @@
+
+
+.hidden-desktop {
+  @media (min-width: $break-point-mobile) {
+    display: none;
+  }
+}

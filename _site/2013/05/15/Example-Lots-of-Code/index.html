@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Example With Lots of Code &middot; Brandon Schmalz - Developer
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <!-- Type -->
+  <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="Brandon Schmalz - Developer" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <header class="masthead">
+  <div class="banner"></div>
+  <div class="container">
+    <a href="/">
+  	  <img class="logo" src="/img/me.jpg" alt="Brandon Schmalz">
+    </a>
+    <ul class="nav">
+      
+  	  
+  	    
+          <li>
+            <a href="/">Home</a>
+          </li>
+  	    
+  	  
+  	    
+          <li>
+            <a href="/about/">About</a>
+          </li>
+  	    
+  	  
+  	    
+          <li>
+            <a href="/archive/">Archive</a>
+          </li>
+  	    
+  	  
+  	    
+          <li>
+            <a href="/contact/">Contact</a>
+          </li>
+  	    
+  	  
+    </ul>
+  </div>
+</header>
+
+    <div class="container">
+      <hr class="hidden-desktop">
+
+      <article class="post">
+  <h2 class="post-title">Example With Lots of Code</h2>
+  <p class="post-date">15 May 2013
+    
+      <span class="tags-item">Jekyll</span>
+    
+      <span class="tags-item">Example-Post</span>
+    
+  </p>
+  <h3 id="inline-code">Inline Code</h3>
+
+<p>Some code right in the middle <code>&lt;img src="meme.gif"&gt;</code> of a sentence.</p>
+
+<h3 id="non-highlighted-code">Non-highlighted Code</h3>
+
+<pre><code>html {
+  font-family: $font-family-copy;
+  font-size: $font-size-mobile;
+  line-height: 1.5;
+  padding: 0;
+
+  @media (min-width: $break-point-mobile) {
+    font-size: $font-size-desktop;
+  }
+} 
+</code></pre>
+
+<h3 id="highlighted-code">Highlighted Code</h3>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- Highlight that shit! --&gt;</span>
+<span class="nt">&lt;header</span> <span class="na">class=</span><span class="s">&quot;masthead&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;/&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">&quot;logo&quot;</span> <span class="na">src=</span><span class="s">&quot;/img/me.png&quot;</span> <span class="na">alt=</span><span class="s">&quot;Brandon Schmalz&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;nav&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;/career/&quot;</span><span class="nt">&gt;</span>Career<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;/personal/&quot;</span><span class="nt">&gt;</span>Personal<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;/posts/&quot;</span><span class="nt">&gt;</span>Posts<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;/contact/&quot;</span><span class="nt">&gt;</span>Contact<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;/ul&gt;</span>
+<span class="nt">&lt;/header&gt;</span></code></pre></div>
+
+<h3 id="add-some-line-numbers">Add Some Line Numbers</h3>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="lineno">1</span> <span class="k">def</span> <span class="nf">show</span>
+<span class="lineno">2</span>   <span class="vi">@widget</span> <span class="o">=</span> <span class="no">Widget</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:id</span><span class="o">]</span><span class="p">)</span>
+<span class="lineno">3</span>   <span class="n">respond_to</span> <span class="k">do</span> <span class="o">|</span><span class="nb">format</span><span class="o">|</span>
+<span class="lineno">4</span>     <span class="nb">format</span><span class="o">.</span><span class="n">html</span> <span class="c1"># show.html.erb</span>
+<span class="lineno">5</span>     <span class="nb">format</span><span class="o">.</span><span class="n">json</span> <span class="p">{</span> <span class="n">render</span> <span class="ss">json</span><span class="p">:</span> <span class="vi">@widget</span> <span class="p">}</span>
+<span class="lineno">6</span>   <span class="k">end</span>
+<span class="lineno">7</span> <span class="k">end</span></code></pre></div>
+
+<h3 id="embed-it">Embed It</h3>
+
+<script src="https://gist.github.com/Schmalzy/f2f998978808f75fa53f.js"></script>
+
+
+</article>
+
+<aside class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="//2014/09/28/Personal-Site-Jekyll-Theme/">
+            Jekyll Theme For a Personal Site
+            <small>28 Sep 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="//2012/02/24/Example-Lots-of-text/">
+            Example With Lots of Text
+            <small>24 Feb 2012</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</aside>
+
+
+      <hr>
+    </div>
+
+    <footer>
+  <div class="container">
+    &copy; 2014. All rights reserved.
+  </div>
+</footer>
+
+  </body>
+</html>
