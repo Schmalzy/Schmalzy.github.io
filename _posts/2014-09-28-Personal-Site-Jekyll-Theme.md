@@ -30,6 +30,6 @@ I found [this awesome article]( http://markdotto.com/2014/09/25/sass-and-jekyll/
 
 ### Disclaimer
 
-While I am a Web-Developer by day, I am most-definitely not a Designer. I wouldn’t even consider myself a real Front-End Web Developer. I write mostly server-side code, and because I mostly work on internal web applications for large corporation, the time allocated for design and front-end development is basically zero. Considering the company’s standard browser is IE8, and I am required to support IE7 as well, I don’t get to do much of what I would consider real Front-End Web Development. 
+While I am a Web-Developer by day, I am most-definitely not a Designer. I wouldn’t even consider myself a real Front-End Web Developer. I write mostly server-side code, and because I mostly work on internal web applications for large corporation, the time allocated for design and front-end development is basically zero (frustrating). Considering the company’s standard browser is IE8, and I am required to support IE7 as well (lame), I don’t get to do much of what I would consider real Front-End Web Development (I need a new job). 
 
 So this site is basically an excuse for me to try out modern web development techniques and try my hand at a little design. Any feedback (positive or negative) is always welcome. 
