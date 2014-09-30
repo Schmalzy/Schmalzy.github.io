@@ -2,7 +2,6 @@
 layout: post
 title: Example With Lots of Code
 tags:
-- Jekyll
 - Example-Post
 ---
 
