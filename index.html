@@ -15,7 +15,7 @@ display: 1
         </a>
       </h2>
 
-      <p class="post-date">{{ post.date | date_to_string }} - 
+      <p class="post-date">{{ post.date | date: '%B %d, %Y' }} - 
 
         {% for tag in post.tags %}
           <span class="tags-item">{{ tag }}</span>
