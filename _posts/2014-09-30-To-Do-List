@@ -1,1 +1,12 @@
-f
+---
+layout: post
+title: Shit To-Do
+tags:
+- Non-Post
+---
+
+- Hover effect on `.nav` and `.logo`
+- Transition between posts on home page.
+- Content for About Page.
+- Content for Conact Page.
+- Re-do realated posts logic and style.
