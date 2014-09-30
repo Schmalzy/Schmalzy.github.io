@@ -15,7 +15,7 @@ This is still a work in progress. Once I have my personal site finished, I will 
 - Global Sass variables for easy theme and payout tweeks
 - Tagging system
 
-### Disclaimer
+## Disclaimer
 
 While I am a Web-Developer by day, I am most-definitely not a Designer. I wouldn’t even consider myself a real Front-End Web Developer. I write mostly server-side code, and because I mostly work on internal web applications for a large corporation, the time allocated for design and front-end development is basically zero (frustrating). Considering the company’s standard browser is IE8, and I am required to support IE7 as well (lame), I don’t get to do much of what I would consider real Front-End Web Development (I need a new job). 
 
