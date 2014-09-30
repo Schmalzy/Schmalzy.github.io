@@ -5,7 +5,7 @@
   	  <img class="logo" src="/img/me.jpg" alt="Brandon Schmalz">
     </a>
     <ul class="nav">
-      {% assign nav_pages = (site.pages | where: "layout", "default" | sort: 'display') %}
+      {% assign nav_pages = (site.pages | where: "layout", "page" | sort: 'display') %}
   	  {% for node in nav_pages %}
   	    {% if node.title == page.title %}
     		  <li  class="active">
