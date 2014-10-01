@@ -5,8 +5,6 @@ tags:
 - Example-Post
 ---
 
-### Inline Code
-
 Some code right in the middle `<img src="meme.gif">` of a sentence.
 
 ### Non-highlighted Code

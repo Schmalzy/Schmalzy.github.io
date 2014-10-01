@@ -61,11 +61,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 1.25;
   color: #313131;
-  font-family: $font-family-copy;
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 h2 {
   margin-top: 1.5rem;
@@ -88,6 +87,11 @@ p {
 
 strong {
   color: #303030;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 // Lists

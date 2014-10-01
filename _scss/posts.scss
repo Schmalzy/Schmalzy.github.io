@@ -2,9 +2,22 @@
 //
 // Any post specific styles
 
+.post {
+  margin-bottom: 3rem;
+}
+
 .post-title {
   margin-bottom: 0.25rem;
   font-family: $font-family-heading;
+}
+
+.post-title > a {
+  border-bottom: 1px solid $base-color-muted;
+
+  &:hover {
+    text-decoration: none;
+    border-color: $base-color;
+  }
 }
 
 .post-list {
@@ -13,7 +26,7 @@
 
 .post-date {
   color: $type-color-muted;
-  font-family: $font-family-copy;
+
 }
 
 .post-date,
@@ -76,5 +89,9 @@
 
 .tags-item + .tags-item {
   margin-left: 0.1rem;
+}
+
+.related-posts {
+  list-style: none;
 }
 

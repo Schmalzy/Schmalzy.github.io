@@ -5,8 +5,6 @@ tags:
 - Jekyll
 ---
 
-### Personal Site 2.0
-
 I was getting bored with my old personal site, as I am sure most developers do after any short period of time. It was built a couple years ago and was beginning to feel dated. So when I decided to rebuild it  from the ground up, there were a few key things I wanted to make sure I accomplished.
 
 - Keep it as simple and clean as possible.
