@@ -52,7 +52,8 @@
   top: -2rem;
   left: 50px;
   width: 2px;
-  height: 2000px;
+  height: 1000px;
+  z-index: -1;
   background-color: $base-color;
 }
 
