@@ -1,5 +1,20 @@
 <footer>
   <div class="container">
-    &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+  	<div class="copyright">
+    	<p>&copy; {{ site.time | date: '%Y' }} {{ site.your_name }}. All rights reserved.</p>
+    </div>
+    <div class="mentions">
+    	<p>Built Using:<p>
+    	<ul class="built-list">
+    		<li><a href="http://jekyllrb.com/">Jekyll</a><br>
+    			<small>Transform your plain text into static websites and blogs</small>
+    		</li>
+    		<li><a href="https://github.com/">Github</a><br>
+    			<small>Build software better, together</small>
+  			</li>
+    		<li><a href="https://github.com/mdo/jekyll-example">@mdo's Jekyll-Example</a><br>
+    			<small>A simple Jekyll site built to show folks how to use Sass with Jekyll</small></li>
+  		</ul>
+    </div>
   </div>
 </footer>

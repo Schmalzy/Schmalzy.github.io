@@ -4,20 +4,16 @@ title: About
 display: 3
 ---
 
-<h1>Brandon Schmalz</h1>
-<p>Web Developer</p>
+<h1>{{ site.your_name }} <small>{{ site.your_title }}</small></h1>
 
-<section>
-	<h2>Career</h2>
-
-</section>
-<section>
-	<h2>Personal</h2>
+{% for about_item in site.data.about_items %}
 	<div class="about-item">
-		<img src="/img/travel.jpg" alt="travel">
+		<div class="about-img">
+			<img src="/img/{{ about_item.img_name }}" alt="{{ about_item.img_alt }}">
+		</div>
 		<div class="about-info">
-			<h3>Travel</h3>
-			<p>I've been fortunate enough to be able to do some traveling both for work and vacation, with recent trips to Malaysia, Germany, Holland and Scotland.</p>
+			<h3>{{ about_item.header }}</h3>
+			<p>{{ about_item.description }}</p>
 		</div>
 	</div>
-</section>
+{% endfor %}

@@ -1,0 +1,29 @@
+- header:      Front-End Web Development
+  description: "HTML and CSS with a little JavaScript mixed in. I love the design and creativity aspects the most."
+  img_name:    front-end.png
+  img_alt:     Front-End Web Development
+
+- header:      Server Side Development
+  description: "PHP, ASP.Net, C#, Visual Basic or whatever you need. Solving complex and challenging problems."
+  img_name:    back-end.png
+  img_alt:     Server Side Development
+
+- header:      SharePoint Development
+  description: "Apps, Web-Parts, Master Pages and Custom Solutions. Not my favorate type of work, but I have Experience."
+  img_name:    sharepoint.jpg
+  img_alt:     SharePoint
+
+- header:      Father
+  description: I recently became a father. This is my daughter Alice. Isn't she super cute?
+  img_name:    father.jpg
+  img_alt:     Father
+
+- header:      Trout Fishing
+  description: "Fly fishing is my favorate outdoor activity. Its a challenging hobby and can be frustrating at times, but I love it."
+  img_name:    trout.jpg
+  img_alt:     Trout
+
+- header:      Travel
+  description: "I enjoy traveling both for work and fun. I've made recent trips to Malaysia, Germany, Holland and Scotland."
+  img_name:    travel.jpg
+  img_alt:     Travel

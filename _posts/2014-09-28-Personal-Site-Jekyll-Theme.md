@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll Theme For a Personal Site
+title: Building a Jekyll Theme
 tags:
 - Jekyll
 ---

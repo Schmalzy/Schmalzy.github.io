@@ -8,10 +8,17 @@
 @import "variables";
 @import "mixins";
 @import "utilities";
+
+//Resets and scaffolding
 @import "base";
-@import "code";
 @import "layout";
+
+//Components
 @import "header";
 @import "posts";
 @import "about";
+@import "footer";
+
+//Misc
+@import "code";
 @import "syntax";

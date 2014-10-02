@@ -2,22 +2,44 @@
 //
 // Update components from the about page
 
-.About { font-family: $font-family-heading; }
-
-.about-item {
-  border-top: 1px solid $base-color-muted;
-  padding: 0.5rem 0;
-
-  @include clearfix;
+.About > h1 { 
+	font-family: $font-family-heading;
+	margin-bottom: 2rem;
 }
 
-.about-item > img {
-  float: left;
-  margin-right: 0.5rem;
-  border: 3px solid $base-color;
+.About > h1 > small {
+	color: #ccc;
+}
+
+.about-item {
+  padding: 0.75rem 0;
+  text-align: center;
+
+  @include clearfix;
+  @media (min-width: $break-point-mobile) {
+    text-align: left;
+  }
+}
+
+.about-img {
+	margin: 1rem auto;
   border-radius: 50%;
+  border: 1px solid $base-color;
+  height: 100px;
+  width: 100px;
+
+  @media (min-width: $break-point-mobile) {
+  	margin: 0 1rem 0 0;
+    float: left;
+  }
+}
+
+.about-img > img {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
 }
 
 .about-info > h3 { margin: 0; }
 
-.about-info > p { font-size: 0.85rem; }

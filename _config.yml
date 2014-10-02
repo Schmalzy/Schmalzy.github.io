@@ -18,6 +18,8 @@ baseurl:             /
 sass:
   sass_dir:          _scss
   style:            :compressed
-  
-#Info
+
+#Personal Info
+your_name:          Brandon Schmalz
+your_title:         Developer
 githubAccount:      Schmalzy
