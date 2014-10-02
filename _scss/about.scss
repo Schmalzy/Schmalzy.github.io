@@ -7,7 +7,6 @@
 .About > h1 { 
   font-family: $font-family-heading;
   margin-bottom: 2rem;
-  text-align: center;
 }
 
 .About > h1 > small {
@@ -45,16 +44,4 @@
 }
 
 .about-info > h3 { margin: 0; }
-
-.vertical-line {
-  @media (min-width: $break-point-mobile) {
-    position: absolute;
-    top: -2rem;
-    left: 50px;
-    width: 1px;
-    height: 1000px;
-    z-index: -1;
-    background-color: $base-color;
-  }
-}
 
