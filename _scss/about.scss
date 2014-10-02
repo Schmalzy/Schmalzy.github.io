@@ -9,18 +9,23 @@
   margin-top: 1.75rem;
 }
 
+.About > h1,
+.about-item {
+  text-align: center;
+  
+  @media (min-width: $break-point-mobile) {
+    text-align: left;
+  }
+}
+
 .About > h1 > small {
   color: #ccc;
 }
 
 .about-item {
   padding: 0.75rem 0;
-  text-align: center;
 
   @include clearfix;
-  @media (min-width: $break-point-mobile) {
-    text-align: left;
-  }
 }
 
 .about-img {
