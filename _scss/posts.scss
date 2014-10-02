@@ -17,7 +17,6 @@
 
 .post-date {
   color: $type-color-muted;
-
 }
 
 .post-date,
@@ -28,7 +27,7 @@
 .post-item {
   font-family: $font-family-heading;
 
-	@include clearfix;
+  @include clearfix;
 }
 
 .post-item > a {
