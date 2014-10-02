@@ -36,18 +36,25 @@ body {
 a {
   color: $link-color-primary;
   text-decoration: none;
-    border-bottom: 1px solid $base-color-muted;
-  -webkit-transition: border-bottom .2s ease-in-out;
-     -moz-transition: border-bottom .2s ease-in-out;
-          transition: border-bottom .2s ease-in-out;
-
-  // `:focus` is linked to `:hover` for basic accessibility
+  
   &:hover,
   &:focus {
-    text-decoration: none;
-    border-color: $base-color;
+      text-decoration: none;
   }
-
+  
+  @media (min-width: $break-point-mobile) {
+    border-bottom: 1px solid $base-color-muted;
+    -webkit-transition: border-bottom .2s ease-in-out;
+       -moz-transition: border-bottom .2s ease-in-out;
+            transition: border-bottom .2s ease-in-out;
+  
+    // `:focus` is linked to `:hover` for basic accessibility
+    &:hover,
+    &:focus {
+      border-color: $base-color;
+    }
+  }
+  
   strong {
     color: inherit;
   }
