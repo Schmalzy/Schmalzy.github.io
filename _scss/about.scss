@@ -3,12 +3,13 @@
 // Update components from the about page
 
 .About > h1 { 
-	font-family: $font-family-heading;
-	margin-bottom: 2rem;
+  font-family: $font-family-heading;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 .About > h1 > small {
-	color: #ccc;
+  color: #ccc;
 }
 
 .about-item {
@@ -22,14 +23,14 @@
 }
 
 .about-img {
-	margin: 1rem auto;
+  margin: 1rem auto;
   border-radius: 50%;
   border: 1px solid $base-color;
   height: 100px;
   width: 100px;
 
   @media (min-width: $break-point-mobile) {
-  	margin: 0 1rem 0 0;
+    margin: 0 1rem 0 0;
     float: left;
   }
 }
