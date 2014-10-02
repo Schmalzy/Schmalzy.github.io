@@ -48,12 +48,14 @@
 
 
 .vertical-line {
-  position: absolute;
-  top: -2rem;
-  left: 50px;
-  width: 1px;
-  height: 1000px;
-  z-index: -1;
-  background-color: $base-color;
+  @media (min-width: $break-point-mobile) {
+    position: absolute;
+    top: -2rem;
+    left: 50px;
+    width: 1px;
+    height: 1000px;
+    z-index: -1;
+    background-color: $base-color;
+  }
 }
 
