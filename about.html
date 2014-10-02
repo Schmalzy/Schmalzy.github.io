@@ -7,13 +7,13 @@ display: 3
 <h1>{{ site.your_name }} <small>{{ site.your_title }}</small></h1>
 
 {% for about_item in site.data.about_items %}
-	<div class="about-item">
-		<div class="about-img">
-			<img src="/img/{{ about_item.img_name }}" alt="{{ about_item.img_alt }}">
-		</div>
-		<div class="about-info">
-			<h3>{{ about_item.header }}</h3>
-			<p>{{ about_item.description }}</p>
-		</div>
-	</div>
+  <div class="about-item">
+    <div class="about-img">
+      <img src="/img/{{ about_item.img_name }}" alt="{{ about_item.img_alt }}">
+    </div>
+    <div class="about-info">
+      <h3>{{ about_item.header }}</h3>
+      <p>{{ about_item.description }}</p>
+    </div>
+  </div>
 {% endfor %}
