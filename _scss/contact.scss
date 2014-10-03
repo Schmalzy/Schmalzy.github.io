@@ -21,10 +21,10 @@
   display: flex;
 }
 
-.conacts-item {
+.contacts-item {
   flex: 1;
 }
 
-.conacts-item + .conacts-item {
+.contacts-item + .contacts-item {
   margin-left: 1rem;
 }
