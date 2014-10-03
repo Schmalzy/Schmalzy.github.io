@@ -2,11 +2,10 @@
 //
 // Update components from the about page
 
-.About { position: relative; }
-
 .About > h1 { 
   font-family: $font-family-heading;
   margin-top: 1.75rem;
+  margin-bottom: 1rem;
 }
 
 .About > h1,

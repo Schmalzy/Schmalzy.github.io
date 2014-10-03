@@ -25,7 +25,7 @@ Previously, my personal site was built on WordPress, which seemed like massive o
 
 ### Getting Started 
 
-I found [this awesome article]( http://markdotto.com/2014/09/25/sass-and-jekyll/) by Mark Otto on using Sass with Jekyll, which came with [this example](https://github.com/mdo/jekyll-example) code. Using this as my starting point, I have to say I very-much enjoyed using Jekyll’s built-in development server and Sass compiler. It simplified my workflow by removing the need to use Grunt or any other third-party tool. All I needed was one Terminal Window, a Text-Editor and a browser. You can certainly use these tools with Jekyll (with-ease, and can be very powerful when combined) but this project was pretty basic and they were simply not needed because of Jekyll’s built-in goodies.
+I found [this awesome article]( http://markdotto.com/2014/09/25/sass-and-jekyll/) by Mark Otto on using Sass with Jekyll, which came with [this example code](https://github.com/mdo/jekyll-example). Using this as my starting point, I have to say I very-much enjoyed using Jekyll’s built-in development server and Sass compiler. It simplified my workflow by removing the need to use Grunt or any other third-party tool. All I needed was one Terminal Window, a Text-Editor and a browser. You can certainly use these tools with Jekyll (with-ease, and can be very powerful when combined) but this project was pretty basic and they were simply not needed because of Jekyll’s built-in goodies.
 
 ### Disclaimer
 
