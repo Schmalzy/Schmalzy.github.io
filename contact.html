@@ -8,7 +8,7 @@ display: 4
   {% for contact_item in site.data.contact_item %}
     <li class="contacts-item">
       <a href="{{ contact_item.url }}">
-        {% include svg/{{ svg_name }} %}
+        {% include svg/{{ contact_item.svg_name }} %}
       </a>
     </li>
   {% endfor %}
