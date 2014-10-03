@@ -33,6 +33,7 @@
   border: 1px solid $base-color;
   height: 100px;
   width: 100px;
+  box-shadow: 0 1px 5px rgba(0,0,0,.2);
 
   @media (min-width: $break-point-mobile) {
     margin: 0 1rem 0 0;

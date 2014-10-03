@@ -1,0 +1,13 @@
+// Contact
+//
+// Styles related to the Conact page.
+
+//Social SVG icon background color
+.outer-shape {
+  fill: $base-color !important;
+}
+
+.custom-icon {
+	border-radius: 50%;
+	box-shadow: 0 1px 5px rgba(0,0,0,.2);
+}
