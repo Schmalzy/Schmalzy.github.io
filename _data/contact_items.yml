@@ -7,7 +7,7 @@
   url:       "https://twitter.com"
   
 - name:      StackOverflow
-  svg_name:  stackoverflow
+  svg_name:  stackoverflow.svg
   url:       "http://stackoverflow.com/users/2370514/schmalzy"
   
 - name:      Facebook
