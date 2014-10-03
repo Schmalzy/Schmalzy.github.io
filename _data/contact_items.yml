@@ -14,7 +14,7 @@
   svg_name:  facebook-square.svg
   url:       "https://facebook.com"
   
-- name:      E-Mail
+- name:      "E-Mail"
   svg_name:  mail.svg
   url:       "mailto:brandon.schmalz.bs@gmail.com"
   
