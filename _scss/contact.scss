@@ -24,3 +24,7 @@
 .conacts-item {
   flex: 1;
 }
+
+.conacts-item + .conacts-item {
+  margin-left: 1rem;
+}
