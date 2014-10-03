@@ -5,11 +5,13 @@ display: 4
 ---
 
 <ul class="contacts">
-  <li class="contacts-item">
-    <a href="https://github.com/Schmalzy">
-      {% include svg/github.svg %}
-    </a>
-  </li>
+  {% for contact_item in site.data.contact_item %}
+    <li class="contacts-item">
+      <a href="{{ contact_item.url }}">
+        {% include svg/{{ svg_name }} %}
+      </a>
+    </li>
+  {% endfor %}
   <li class="contacts-item">{% include svg/twitter.svg %}</li>
   <li class="contacts-item">{% include svg/stackoverflow.svg %}</li>
   <li class="contacts-item">{% include svg/facebook-square.svg %}</li>
