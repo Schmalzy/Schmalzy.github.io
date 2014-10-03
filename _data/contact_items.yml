@@ -2,22 +2,22 @@
   svg_name:  github.svg
   url:       https://github.com/Schmalzy
   
-- name:      GitHub
-  svg_name:  github.svg
-  url:       https://github.com/Schmalzy
+- name:      Twitter
+  svg_name:  twitter.svg
+  url:       https://twitter.com
   
-- name:      GitHub
-  svg_name:  github.svg
-  url:       https://github.com/Schmalzy
+- name:      StackOverflow
+  svg_name:  stackoverflow
+  url:       http://stackoverflow.com/users/2370514/schmalzy
   
-- name:      GitHub
-  svg_name:  github.svg
-  url:       https://github.com/Schmalzy
+- name:      Facebook
+  svg_name:  facebook-square.svg
+  url:       https://facebook.com
   
-- name:      GitHub
-  svg_name:  github.svg
-  url:       https://github.com/Schmalzy
+- name:      E-Mail
+  svg_name:  mail.svg
+  url:       mailto:brandon.schmalz.bs@gmail.com
   
-- name:      GitHub
-  svg_name:  github.svg
-  url:       https://github.com/Schmalzy
+- name:      Linkedin
+  svg_name:  linkedin.svg
+  url:       https://www.linkedin.com/profile/view?id=231551946&trk=spm_pic
