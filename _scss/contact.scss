@@ -3,7 +3,7 @@
 // Styles related to the Conact page.
 
 .Contact {
-	margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 //Social SVG icon background color
@@ -12,6 +12,14 @@
 }
 
 .custom-icon {
-	border-radius: 50%;
-	box-shadow: 0 1px 5px rgba(0,0,0,.2);
+  border-radius: 50%;
+  box-shadow: 0 1px 5px rgba(0,0,0,.2);
+}
+
+.contacts {
+  display: flex;
+}
+
+.conacts-item {
+  flex: 1;
 }
