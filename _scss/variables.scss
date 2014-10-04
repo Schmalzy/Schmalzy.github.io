@@ -2,7 +2,7 @@
 //
 // Global variables for easy color and layout changes
 
-//Colors
+// Colors
 $base-color:            #16A085;
 $base-color-muted:      rgba( $base-color, .25 );
 $base-color-compliment: #F89406; //Not currenty used.
@@ -11,14 +11,17 @@ $link-color-primary:    $base-color;
 $type-color-primary:    #555;
 $type-color-muted:      #ccc;
 
-//Global font size
+// Global font size
 $font-size-mobile:      16px;
 $font-size-desktop:     20px; 
 
-//Font stack
+// Font stack
 $font-family-heading:   "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-copy:      "PT Serif", Georgia, serif;
 $font-family-code:      Menlo, Monaco, "Courier New", monospace;
 
-//Break Point 
+// Break Point 
 $break-point-mobile:    48rem; //(16px x 48rem = 768px)
+
+// Box-shadow
+$box-shadow-images:     0px 0px 10px 0px rgba(50, 50, 50, 0.45); //for all circular images

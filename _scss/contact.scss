@@ -13,14 +13,12 @@
 
 .custom-icon {
   border-radius: 50%;
-  box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.45);
+  box-shadow: $box-shadow-images;
 }
 
 .contacts {
   list-style: none;
   padding: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .contacts-item {
@@ -30,6 +28,12 @@
 
 .contacts-item > a {
   border-bottom: 0;
+  height: 100px;
+  width: 100px;
 }
 
-
+.contacts-item + .contacts-item {
+  @media (min-width: $break-point-mobile) {
+    margin-left: 0.75rem;
+  }
+}

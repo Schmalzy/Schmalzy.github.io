@@ -5,7 +5,7 @@
 .About > h1 { 
   font-family: $font-family-heading;
   margin-top: 1.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .About > h1,
@@ -32,7 +32,7 @@
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.45);
+  box-shadow: $box-shadow-images;
 
   @media (min-width: $break-point-mobile) {
     margin: 0 1rem 0 0;
@@ -41,11 +41,24 @@
 }
 
 .about-img > img {
-  border: 3px solid #fff;
+  border: 2px solid rgba(255,255,255, 0.3);
   border-radius: 50%;
   height: 100%;
   width: 100%;
 }
 
-.about-info > h3 { margin: 0; }
+.about-info > h3 { 
+  margin: 0;
+  font-size: 1rem;
+}
+
+.about-info {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: $break-point-mobile) {
+    max-width: 100%;
+  }
+}
 
