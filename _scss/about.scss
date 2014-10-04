@@ -30,10 +30,9 @@
 .about-img {
   margin: 1rem auto;
   border-radius: 50%;
-  border: 1px solid $base-color;
   height: 100px;
   width: 100px;
-  box-shadow: 0 1px 5px rgba(0,0,0,.2);
+  box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.45);
 
   @media (min-width: $break-point-mobile) {
     margin: 0 1rem 0 0;

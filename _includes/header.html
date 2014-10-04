@@ -1,8 +1,8 @@
 <header class="masthead">
   <div class="banner"></div>
   <div class="container">
-    <a target="_blank" href="https://github.com/{{ site.githubAccount }}">
-      <img class="logo" src="/img/me.jpg" alt="Brandon Schmalz">
+    <a href="/">
+      <img class="logo" src="{{ site.your_img }}" alt="Brandon Schmalz">
     </a>
     <ul class="nav">
       {% assign nav_pages = (site.pages | where: "layout", "page" | sort: 'display') %}

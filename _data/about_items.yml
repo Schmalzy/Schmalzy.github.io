@@ -4,7 +4,7 @@
   img_alt:     Front-End Web Development
 
 - header:      Server Side Development
-  description: "PHP, ASP.Net, C#, Visual Basic or whatever you need. Solving complex and challenging problems."
+  description: "PHP, ASP.Net, C#, Visual Basic, SQL or whatever you need. Solving complex and challenging problems."
   img_name:    back-end.png
   img_alt:     Server Side Development
 
@@ -14,7 +14,7 @@
   img_alt:     SharePoint
 
 - header:      Father
-  description: I recently became a father. This is my daughter Alice. Isn't she super cute?
+  description: "I recently became a father. This is my daughter Alice. Isn't she super cute?"
   img_name:    father.jpg
   img_alt:     Father
 

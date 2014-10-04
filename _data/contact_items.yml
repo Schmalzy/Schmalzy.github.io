@@ -1,23 +1,23 @@
-- name:      GitHub
-  svg_name:  github.svg
-  url:       "https://github.com/Schmalzy"
-  
-- name:      Twitter
-  svg_name:  twitter.svg
-  url:       "https://twitter.com"
-  
-- name:      StackOverflow
-  svg_name:  stackoverflow.svg
-  url:       "http://stackoverflow.com/users/2370514/schmalzy"
-  
-- name:      Facebook
-  svg_name:  "facebook-square.svg"
-  url:       "https://facebook.com"
-  
 - name:      "E-Mail"
   svg_name:  mail.svg
   url:       "mailto:brandon.schmalz.bs@gmail.com"
-  
+
+- name:      GitHub
+  svg_name:  github.svg
+  url:       "https://github.com/Schmalzy"
+
+- name:      Twitter
+  svg_name:  twitter.svg
+  url:       "https://twitter.com/SchmalzyB"
+
+- name:      StackOverflow
+  svg_name:  stackoverflow.svg
+  url:       "http://stackoverflow.com/users/2370514/schmalzy"
+
+- name:      Facebook
+  svg_name:  "facebook-square.svg"
+  url:       "https://www.facebook.com/brandon.schmalz.3"
+
 - name:      Linkedin
   svg_name:  linkedin.svg
   url:       "https://www.linkedin.com/profile/view?id=231551946&trk=spm_pic"
