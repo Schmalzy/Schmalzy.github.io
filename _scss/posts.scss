@@ -2,10 +2,6 @@
 //
 // Any post specific styles
 
-.post {
-  margin-bottom: 3rem;
-}
-
 .post-title {
   margin-bottom: 0.25rem;
   font-family: $font-family-heading;
@@ -61,7 +57,7 @@
 
 .tags-item {
   color: #fff;
-  background-color: $base-color-muted;
+  background-color: $base-color-tags;
   padding: 2px 5px;
   border-radius: 0.2rem;
   font-size: 0.8rem;

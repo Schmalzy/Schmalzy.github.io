@@ -1,32 +1,3 @@
 // footer
 //
 // Styles specific to the footer and its components
-
-.built-list {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-.built-list > li {
-	vertical-align: top;
-	margin-top: 0.5rem;
-
-	@media (min-width: $break-point-mobile) {
-		display: inline-block;
-		max-width: 223px;
-		margin-top: 0;
-	}
-}
-
-.built-list > li + li {
-
-	@media (min-width: $break-point-mobile) {
-		margin-left: 7px;
-	}
-}
-
-.built-list > li small { 
-	font-size: 0.7rem;
-	line-height: 1;
-}
