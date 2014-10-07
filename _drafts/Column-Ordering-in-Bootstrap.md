@@ -10,9 +10,11 @@ When attempting to use the column ordering features in Bootstrap 3, I found that
 
 > Easily change the order of our built-in grid columns with .col-md-push-* and .col-md-pull-* modifier classes.
 >
+>    {% highlight html %}
 >    <div class="row">
 >      <div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3</div>
 >      <div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9</div>
 >    </div>
+>    {% endhighlight %}
 
 And that's about it. 
