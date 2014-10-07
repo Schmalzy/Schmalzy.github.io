@@ -17,4 +17,17 @@ When attempting to use the column ordering features in Bootstrap 3, I found that
 >    </div>
 >    {% endhighlight %}
 
-And that's about it. 
+And that's about it. So this article is my attempt at shedding some light on this feature, hopefully it helps you understand column ordering.
+
+## Mobile First
+
+Bootstrap is a mobile fisrt framework, which means that the order of the columns in your HTML markup should represnt the order in which you want them displayed on a mobile device.
+
+
+
+- `col-vp-push-x` = push the column to the right by *x* number of columns, starting from where the column would normally render -> `position: relative`, on a *vp* or larger view-port.
+- `col-vp-pull-x` = pull the column to the left by *x* number of columns, starting from where the column would normally render -> `position: relative`, on a *vp* or larger view-port.
+
+vp = xs, sm, md, or lg
+
+x = 1 thru 12
