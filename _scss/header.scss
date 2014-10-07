@@ -69,7 +69,16 @@
   }
 }
 
+.nav > li.active {
+  border-bottom: 1px solid $base-color;
+
+  @media (min-width: $break-point-mobile) {
+    border-bottom: 0;
+  }
+}
+
 .nav > li.active:after {
+
   @media (min-width: $break-point-mobile) {
     content: "";
     position: absolute;
