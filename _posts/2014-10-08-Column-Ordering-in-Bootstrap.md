@@ -27,7 +27,7 @@ Lets take a look at an example. Below we have two columns of equal width which w
   <div class="col-sm-6 col-sm-push-6">
     <!-- Column A -->
   </div>
-  <div class="col-sm-6 col-sm-push-6">
+  <div class="col-sm-6 col-sm-pull-6">
     <!-- Column B -->
   </div>
 </div>
