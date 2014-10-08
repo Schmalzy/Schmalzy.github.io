@@ -38,6 +38,8 @@ Lets take a look at an example. Below we have two columns of equal width which w
 
 ![Column Ordering Example](/img/posts/column-ordering-example.png)
 
+I think most people would (at first) assume that the desktop views would be rendered in normal order and that the pushing and pulling are done on the mobile views. Once you realize that the complete opposite is true, you begin to understand how to layout your columns in the correct order, and the correct classes that need to be used.
+
 ## Conclusion 
 
 The two statements below summarize the functionality of the push and pull classes and should give you the full understanding of how they work, and how they should be used.
