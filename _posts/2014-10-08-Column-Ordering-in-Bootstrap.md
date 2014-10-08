@@ -38,6 +38,8 @@ Lets take a look at an example. Below we have two columns of equal width which w
 
 ![Column Ordering Example](/img/posts/column-ordering-example.png)
 
+## Conclusion 
+
 The two statements below summarize the functionality of the push and pull classes and should give you the full understanding of how they work, and how they should be used.
 
 - `col-vp-push-x` = push the column to the right by `x` number of columns, starting from where the column would normally render -> `position: relative`, on a `vp` or larger view-port.
