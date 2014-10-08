@@ -33,14 +33,14 @@ Lets take a look at an example. Below we have two columns of equal width which w
 </div>
 {% endhighlight %}
 
-- On the larger desktop view the columns are pushed and pulled.
-- On the mobile view the columns are rendered in the natural order.
+- On the larger desktop views (`sm` or larger) the columns are pushed and pulled.
+- On the mobile view (`xs`) the columns are rendered in the natural order of the markup.
 
 ![Column Ordering Example](/img/posts/column-ordering-example.png)
 
-The statements below summarize the action of the push and pull classes.
+The two statements below summarize the functionality of the push and pull classes and should give you the full understanding of how they work, and how they should be used.
 
 - `col-vp-push-x` = push the column to the right by `x` number of columns, starting from where the column would normally render -> `position: relative`, on a `vp` or larger view-port.
 - `col-vp-pull-x` = pull the column to the left by `x` number of columns, starting from where the column would normally render -> `position: relative`, on a `vp` or larger view-port.
-- `vp` = *xs, sm, md, or lg*
-- `x` = *1 thru 12*
+- `vp` = *xs, sm, md, or lg (minimum viewport)*
+- `x` = *1 thru 12 (number of columns)*
