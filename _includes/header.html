@@ -1,9 +1,8 @@
 <header class="masthead">
   <div class="banner"></div>
   <div class="container">
-    <a class="logo-wrap" href="/">
+    <a href="/">
       <img class="logo" src="{{ site.your_img }}" alt="Brandon Schmalz">
-      <span class="logo-popup">{{ site.your_name }}</span>
     </a>
     <ul class="nav">
       {% assign nav_pages = (site.pages | where: "layout", "page" | sort: 'display') %}
