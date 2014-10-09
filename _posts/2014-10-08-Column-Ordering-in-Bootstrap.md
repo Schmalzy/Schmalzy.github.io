@@ -37,6 +37,7 @@ Lets take a look at an example. Below we have two columns of equal width which w
 - On the mobile view (`xs`) the columns are rendered in the natural order of the markup.
 
 ![Column Ordering Example](/img/posts/column-ordering-example.png)
+<a href="http://codepen.io/Schmalzy/pen/iJdgD" target="_blank">View on CodePen</a>
 
 I think most people would (at first) assume that the desktop views would be rendered in normal order and that the pushing and pulling are done on the mobile views. Once you realize that the complete opposite is true, you begin to understand how to layout your columns in the correct order, and the correct classes that need to be used.
 
