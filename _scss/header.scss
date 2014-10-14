@@ -22,15 +22,24 @@
   z-index: -1;
 }
 
-.logo {
+.logo,
+.logo-img {
   height: 100px;
   width: 100px;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  box-shadow: $box-shadow-images;
+}
+
+.logo {
+  border-bottom:0;
+
   @media (min-width: $break-point-mobile) {
     float: left;
   }
+}
+
+.logo-img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: $box-shadow-images;
 }
 
 .nav {

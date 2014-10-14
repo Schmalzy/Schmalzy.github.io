@@ -1,22 +1,22 @@
 <header class="masthead">
   <div class="banner"></div>
   <div class="container">
-    <a href="/">
-      <img class="logo" src="{{ site.your_img }}" alt="Brandon Schmalz">
+    <a class="logo" href="/">
+      <img class="logo-img" src="{{ site.your_img }}" alt="Brandon Schmalz">
     </a>
-    <ul class="nav">
+    <ul class="nav" role="navigation">
       {% assign nav_pages = (site.pages | where: "layout", "page" | sort: 'display') %}
       {% for node in nav_pages %}
         {% if node.title == page.title %}
           <li  class="active">
-            <a href="{{ node.url }}">{{ node.title }}</a>
-          </li>
         {% else %}
           <li>
+        {% endif %}
             <a href="{{ node.url }}">{{ node.title }}</a>
           </li>
-        {% endif %}
       {% endfor %}
     </ul>
+    <hr class="header-divider">
   </div>
 </header>
+
