@@ -29,7 +29,7 @@
 }
 
 .contacts-item + .contacts-item {
-  @media (min-width: $break-point-mobile) {
+  @media (min-width: $break-point-desktop) {
     margin-left: 0.75rem;
   }
 }

@@ -3,7 +3,6 @@ layout: post
 title: Column Ordering in Bootstrap
 tags:
 - Bootstrap
-- Column-Ordering
 ---
 
 When attempting to use the column ordering features in Bootstrap 3, I found that it was pretty confusing at first. Normally the [Bootstrap Documentation](http://getbootstrap.com/css/) is stellar, but the section on [Column Ordering](http://getbootstrap.com/css/#grid-column-ordering) is really lacking some important details. 

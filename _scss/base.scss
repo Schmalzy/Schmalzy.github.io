@@ -19,7 +19,7 @@ html {
   line-height: 1.5;
   padding: 0;
 
-  @media (min-width: $break-point-mobile) {
+  @media (min-width: $break-point-desktop) {
     font-size: $font-size-desktop;
   }
 }
@@ -42,7 +42,7 @@ a {
       text-decoration: none;
   }
   
-  @media (min-width: $break-point-mobile) {
+  @media (min-width: $break-point-desktop) {
     border-bottom: 1px solid $base-color-muted;
     -webkit-transition: border-bottom .2s ease-in-out;
        -moz-transition: border-bottom .2s ease-in-out;

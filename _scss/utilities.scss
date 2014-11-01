@@ -3,7 +3,7 @@
 // Any styles that server a function rather than styling a component
 
 .hidden-desktop {
-  @media (min-width: $break-point-mobile) {
+  @media (min-width: $break-point-desktop) {
     display: none;
   }
 }
