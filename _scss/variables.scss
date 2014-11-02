@@ -1,15 +1,21 @@
 // Variables
 //
-// Global variables for easy color and layout changes
+// Global variables for easy color, font and layout changes
+
+//Themes
+
+$theme-color-red        : #D24D57;
+$theme-color-green      : #16A085;
+$theme-color-blue       : #227183;
 
 // Colors
-$base-color             : #16A085;
+$base-color             : $theme-color-green;
 $base-color-muted       : rgba( $base-color, .25 );
 $base-color-tags        : rgba( $base-color, .65 );
 
 $link-color-primary     : $base-color;
 $type-color-primary     : #555;
-$type-color-muted       : #ccc;
+$type-color-muted       : #95a5a6;
 
 // Global font size
 $font-size-mobile       : 16px;
@@ -21,7 +27,7 @@ $font-family-copy       : "PT Serif", Georgia, serif;
 $font-family-code       : Menlo, Monaco, "Courier New", monospace;
 
 // Break Point 
-$break-point-desktop     : 48rem; //(16px x 48rem = 768px)
+$break-point-desktop    : 48rem; //(16px x 48rem = 768px)
 
 // Box-shadow
-$box-shadow-images      : 0px 0px 10px 0px rgba(35, 35, 35, 0.25);
+$box-shadow-images      : none;//0px 0px 5px 0px rgba(35, 35, 35, 0.25);

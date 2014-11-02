@@ -4,7 +4,7 @@
 
 .masthead {
   position: relative;
-  padding-top: 1.5rem;
+  padding-top: 1.25rem;
   text-align: center;
 
   @media (min-width: $break-point-desktop) {
@@ -15,9 +15,9 @@
 .banner {
   position: absolute;
   top: 0;
-  height: 95px;
+  height: 90px;
   width: 100%;
-  box-shadow: 0px 1px 5px 0px rgba(35,35,35, 0.25);
+  //box-shadow: 0px 1px 5px 0px rgba(35,35,35, 0.25);
   background-color: $base-color;
   z-index: -1;
 }
@@ -74,7 +74,7 @@
 
   @media (min-width: $break-point-desktop) {
     color: #fff;
-    text-shadow: 1px 1px 2px rgba(0,0,0, 0.3);
+    //text-shadow: 1px 1px 2px rgba(0,0,0, 0.3);
   }
 }
 
@@ -86,7 +86,7 @@
   }
 }
 
-.nav > li.active:after {
+.nav > li.active::after {
 
   @media (min-width: $break-point-desktop) {
     content: "";
@@ -106,5 +106,6 @@
 .header-divider {
   @media (min-width: $break-point-desktop) {
     border-top: 0;
+    margin: .75rem 0;
   }
 }
