@@ -8,9 +8,9 @@
       {% assign nav_pages = (site.pages | where: "layout", "page" | sort: 'display') %}
       {% for node in nav_pages %}
         {% if node.title == page.title %}
-          <li  class="active">
+          <li class="hover-effect active">
         {% else %}
-          <li>
+          <li class="hover-effect">
         {% endif %}
             <a href="{{ node.url }}">{{ node.title }}</a>
           </li>

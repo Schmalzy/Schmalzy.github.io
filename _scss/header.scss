@@ -30,9 +30,39 @@
 
 .logo {
   border-bottom:0;
+  position: relative;
 
   @media (min-width: $break-point-desktop) {
     float: left;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 86px;
+    width: 86px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    transform: scale(0.85);
+    opacity: 0;
+    -webkit-transition: top 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: top 0.3s, opacity 0.3s, -moz-transform 0.3s;
+    transition: top 0.3s, opacity 0.3s, transform 0.3s;
+  }
+
+  &:hover::after {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+    top: 1px;
+    opacity: 1;
   }
 }
 
@@ -74,9 +104,47 @@
 
   @media (min-width: $break-point-desktop) {
     color: #fff;
+    border: none;
     //text-shadow: 1px 1px 2px rgba(0,0,0, 0.3);
   }
 }
+
+.hover-effect a::before {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  transition: transform 0.2s;
+  -webkit-transform: scale(0.85);
+  -moz-transform: scale(0.85);
+  transform: scale(0.85);
+}
+
+.hover-effect a::before {
+  opacity: 0;
+  -webkit-transition: top 0.2s, opacity 0.2s, -webkit-transform 0.2s;
+  -moz-transition: top 0.2s, opacity 0.2s, -moz-transform 0.2s;
+  transition: top 0.2s, opacity 0.2s, transform 0.2s;
+}
+
+.hover-effect a:hover::before,
+.hover-effect a:focus::before {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+}
+
+.hover-effect a:hover::before,
+.hover-effect a:focus::before {
+  top: 1px;
+  opacity: 1;
+}
+
 
 .nav > li.active {
   border-bottom: 1px solid $base-color;

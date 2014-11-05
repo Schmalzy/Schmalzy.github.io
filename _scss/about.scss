@@ -5,6 +5,7 @@
 .page-about > h1,
 .about-item {
   text-align: center;
+  font-family: $font-family-heading;
   
   @media (min-width: $break-point-desktop) {
     text-align: left;
@@ -44,6 +45,7 @@
 .about-info > h3 { 
   margin: 0.25rem 0;
   font-size: 1rem;
+  font-family: $font-family-heading;
 }
 
 .about-info {
