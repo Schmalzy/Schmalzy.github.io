@@ -6,6 +6,10 @@
   margin-bottom: 1.5rem;
 }
 
+.page-home hr {
+  margin: 1.75rem 0 1rem;
+}
+
 .post-title {
   margin-bottom: 0;
   font-family: $font-family-heading;
@@ -16,13 +20,13 @@
   font-family: $font-family-heading;
 }
 
-.post-date,
-.post-item {
-  margin-bottom: 0.5rem;
+.post-date {
+  margin-top: 0.25rem;
 }
 
 .post-item {
   font-family: $font-family-heading;
+  margin-bottom: 0.5rem;
 
   @include clearfix;
 }

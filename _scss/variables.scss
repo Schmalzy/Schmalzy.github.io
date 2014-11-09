@@ -10,8 +10,11 @@ $theme-color-blue       : #227183;
 
 // Colors
 $base-color             : $theme-color-green;
+$base-color-darken      : darken($base-color, 5%);
 $base-color-muted       : rgba( $base-color, .25 );
 $base-color-tags        : rgba( $base-color, .65 );
+
+$secondary-color-gray   : #ecf0f1;
 
 $link-color-primary     : $base-color;
 $type-color-primary     : #555;
@@ -30,4 +33,4 @@ $font-family-code       : Menlo, Monaco, "Courier New", monospace;
 $break-point-desktop    : 48rem; //(16px x 48rem = 768px)
 
 // Box-shadow
-$box-shadow-images      : none;//0px 0px 5px 0px rgba(35, 35, 35, 0.25);
+$box-shadow-images      : none; //0px 0px 5px 0px rgba(35, 35, 35, 0.25);

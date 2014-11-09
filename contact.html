@@ -5,17 +5,24 @@ class: page-contact
 display: 4
 ---
 
-<ul class="contacts">
+<div class="contacts">
+
   {% for contact_item in site.data.contact_items %}
   
-    <li class="contacts-item">
-      <a href="{{ contact_item.url }}">
-        {% include svg/{{ contact_item.svg_name }} %}
-      </a>
-    </li>
+    <div class="contact-panel">
+    	<div class="contact-panel-icon">
+	      <a href="{{ contact_item.url }}">
+	        {% include svg/{{ contact_item.svg_name }} %}
+	      </a>
+	    </div>
+	    <div class="contact-panel-footer">
+	    	<h3>{{ contact_item.name }}</h3>
+	    </div>
+    </div>
     
   {% endfor %}
-</ul>
+
+</div>
 
 {% include feedback.html %}
 
