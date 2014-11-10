@@ -142,7 +142,7 @@
 
 .hover-effect a:hover::before,
 .hover-effect a:focus::before {
-  top: 1px;
+  top: 0;
   opacity: 1;
 }
 
