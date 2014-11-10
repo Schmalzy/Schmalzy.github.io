@@ -5,13 +5,15 @@ class: page-contact
 display: 4
 ---
 
+{% include feedback.html %}
+
 <div class="contacts">
 
   {% for contact_item in site.data.contact_items %}
   
     <div class="contact-panel">
     	<div class="contact-panel-icon">
-	      <a href="{{ contact_item.url }}">
+	      <a href="{{ contact_item.url }}" target="_blank">
 	        {% include svg/{{ contact_item.svg_name }} %}
 	      </a>
 	    </div>
@@ -23,8 +25,6 @@ display: 4
   {% endfor %}
 
 </div>
-
-{% include feedback.html %}
 
 
 

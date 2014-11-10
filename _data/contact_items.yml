@@ -21,3 +21,7 @@
 - name:      Linkedin
   svg_name:  linkedin.svg
   url:       "https://www.linkedin.com/profile/view?id=231551946&trk=spm_pic"
+
+- name:      YouTube
+  svg_name:  youtube.svg
+  url:       "https://www.youtube.com/channel/UC3laG5F5shlf0za6VFVw63A"
