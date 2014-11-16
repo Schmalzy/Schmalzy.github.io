@@ -47,9 +47,6 @@
     width: 86px;
     border: 2px solid #fff;
     border-radius: 50%;
-    -webkit-transition: -webkit-transform 0.3s;
-    -moz-transition: -moz-transform 0.3s;
-    transition: transform 0.3s;
     -webkit-transform: scale(0.85);
     -moz-transform: scale(0.85);
     transform: scale(0.85);
@@ -110,6 +107,29 @@
   }
 }
 
+/*
+.hover-effect  a::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, height 0.2s;
+  -moz-transition: opacity 0.2s, height 0.2s;
+  transition: opacity 0.2s, height 0.2s;
+}
+
+.hover-effect a:hover::before {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  transform: translateY(0px);
+  height: 3px;
+}*/
+
 .hover-effect a::before {
   position: absolute;
   top: 100%;
@@ -145,7 +165,6 @@
   top: 0;
   opacity: 1;
 }
-
 
 .nav > li.active {
   border-bottom: 1px solid $base-color;
