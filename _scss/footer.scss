@@ -2,7 +2,10 @@
 //
 // Styles specific to the footer and its components
 
-.feedback {
+footer {
+  margin-bottom: 2rem;
+}
 
+.feedback {
 	@include clearfix;
 }

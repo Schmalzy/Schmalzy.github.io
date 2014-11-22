@@ -1,6 +1,22 @@
 // About page
 //
 // Update components from the about page
+.about-container {
+  position: relative;
+}
+
+.about-container::after {
+  @media (min-width: $break-point-desktop) {
+    content: " ";
+    position: absolute;
+    top: 45px;
+    bottom: 45px;
+    left: 44px;
+    width: 2px;
+    background-color: $secondary-color-gray;
+    z-index: -1;
+  }
+}
 
 .page-about > h1,
 .about-item {
@@ -28,6 +44,7 @@
   height: 90px;
   width: 90px;
   box-shadow: $box-shadow-images;
+  border: 2px solid $secondary-color-gray;
 
   @media (min-width: $break-point-desktop) {
     margin: 0 1rem 0 0;
@@ -36,16 +53,20 @@
 }
 
 .about-img > img {
-  border: 2px solid rgba(255,255,255, 0.3);
+  border: 2px solid #fff;
   border-radius: 50%;
   height: 100%;
   width: 100%;
 }
 
 .about-info > h3 { 
-  margin: 0.25rem 0;
+  margin: 0 0 0.25rem;
   font-size: 1rem;
   font-family: $font-family-heading;
+}
+
+.about-info p {
+  line-height: 1.4rem;
 }
 
 .about-info {

@@ -30,7 +30,7 @@
   }
 }
 
-.contact-panel a {
+.contact-panel-icon a {
   position: relative;
   border-bottom: 0;
   height: 90px;
@@ -57,7 +57,7 @@
   }
 }
 
-.contact-panel:hover a::after {
+.contact-panel-icon:hover a::after {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   transform: scale(1.1);
