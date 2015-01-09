@@ -2,26 +2,72 @@
 //
 // Styles specific to the elements contained in the header
 
-.masthead {
-  position: relative;
-  padding-top: 1.5rem;
-  text-align: center;
+header {
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  background-color: $base-color;
+  border-top: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  z-index: 100;
 
   @media (min-width: $break-point-desktop) {
-    text-align: right;
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+
+    border-top: 5px solid #00796B;
+    height: 155px;
   }
 }
 
-.banner {
+.sticky-header header {
+  @media (min-width: $break-point-desktop) {
+    height: 50px;
+    border-top: 0;
+  }
+}
+
+nav {
+  height: 50px;
   position: absolute;
-  top: 0;
-  height: 90px;
+  bottom: 0;
   width: 100%;
-  //box-shadow: 0px 1px 5px 0px rgba(35,35,35, 0.25);
-  background-color: $base-color;
-  border-top: 3px solid $base-color-darken;
-  box-shadow: 0 3px 3px rgba(35,35,35,0.1);
-  z-index: -1;
+  //background-color: $base-color-darken;
+}
+
+header h1 {
+  line-height: 100px;
+  color: #fff;
+  font-family: $font-family-heading;
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 0;
+  display: none;
+
+  @media (min-width: $break-point-desktop) {
+    display: block;
+  }
+}
+
+header > .container {
+  @media (min-width: $break-point-desktop) {
+    -webkit-transition: all 0.3s ease;
+       -moz-transition: all 0.3s ease;
+         -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+  }
+}
+
+body.sticky-header header > .container {
+    @media (min-width: $break-point-desktop) {
+    -webkit-transform: scale(0, 0);
+       -moz-transform: scale(0, 0);
+        -ms-transform: scale(0, 0);
+            transform: scale(0, 0);
+  }
 }
 
 .logo,
@@ -31,69 +77,72 @@
 }
 
 .logo {
+  display: none;
   border-bottom:0;
   position: relative;
+  top: 5px;
 
   @media (min-width: $break-point-desktop) {
+    display: inline-block;
     float: left;
-  }
 
-  &::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 86px;
-    width: 86px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    -webkit-transform: scale(0.85);
-    -moz-transform: scale(0.85);
-    transform: scale(0.85);
-    opacity: 0;
-    -webkit-transition: top 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-    -moz-transition: top 0.3s, opacity 0.3s, -moz-transform 0.3s;
-    transition: top 0.3s, opacity 0.3s, transform 0.3s;
+    -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+       -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
   }
+}
 
-  &:hover::after {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
+.sticky-header .logo {
+  @media (min-width: $break-point-desktop) {
+    -webkit-transform: scale(0, 0);
+       -moz-transform: scale(0, 0);
+        -ms-transform: scale(0, 0);
+            transform: scale(0, 0);
   }
 }
 
 .logo-img {
-  border: 2px solid #fff;
   border-radius: 50%;
-  box-shadow: 0 0 3px rgba(35,35,35,0.1);
+  box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 6px rgba(0,0,0,.12);
 }
 
 .nav {
   list-style: none;
-  margin: 1rem 0 0;
+  margin: 0;
   padding: 0;
+  text-align: center;
+
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+          transition: all 0.5s ease;
 
   @media (min-width: $break-point-desktop) {
-    margin: 0;
-    padding: 1.5rem 0;
+    text-align: right;
   }
 }
 
 .nav > li {
   position: relative;
   display: inline-block;
+  padding: 0;
+  margin: 0 0.4rem;
 }
 
 .nav > li + li {
-  margin-left: 0.75rem;
+  @media (min-width: $break-point-desktop) {
+    margin: 0 0.75rem 0 0;
+ }
 }
 
 .nav > li > a {
   font-family: $font-family-heading;
-  color: $link-color-primary;
-  font-weight: 300;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  text-transform: uppercase;
   text-rendering: optimizeLegibility;
 
   &:hover {
@@ -101,7 +150,6 @@
   }
 
   @media (min-width: $break-point-desktop) {
-    color: #fff;
     border: none;
   }
 }
@@ -127,11 +175,11 @@
   -moz-transform: translateY(0px);
   transform: translateY(0px);
   height: 3px;
-}*/
+}
 
 .hover-effect a::before {
   position: absolute;
-  top: 100%;
+  top: 10px;
   left: 0;
   width: 100%;
   height: 2px;
@@ -164,29 +212,18 @@
   top: 0;
   opacity: 1;
 }
+*/
 
 .nav > li.active {
-  border-bottom: 1px solid $base-color;
 
-  @media (min-width: $break-point-desktop) {
-    border-bottom: 0;
-  }
-}
-
-.nav > li.active::after {
-
-  @media (min-width: $break-point-desktop) {
+  &::after {
     content: "";
     position: absolute;
-    top: 98%;
-    width: 0px;
-    height: 0px;
-    border-top: 8px solid $base-color;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid transparent;
-    left: 50%;
-    margin-left: -10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #00796B;
   }
 }
 
@@ -196,5 +233,4 @@
     margin: .75rem 0;
   }
 }
-
 

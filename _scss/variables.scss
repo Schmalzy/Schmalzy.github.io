@@ -9,8 +9,8 @@ $theme-color-green      : #16A085;
 $theme-color-blue       : #227183;
 
 // Colors
-$base-color             : $theme-color-green;
-$base-color-darken      : darken($base-color, 5%);
+$base-color             : #009688;
+$base-color-darken      : #00796B; //darken($base-color, 5%);
 $base-color-muted       : rgba( $base-color, .25 );
 $base-color-tags        : rgba( $base-color, .65 );
 
@@ -25,8 +25,8 @@ $font-size-mobile       : 16px;
 $font-size-desktop      : 20px; 
 
 // Font stack
-$font-family-heading    : "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-copy       : "PT Serif", Georgia, serif;
+$font-family-heading    : "RobotoDraft", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-copy       : "RobotoDraft", "Helvetica Neue", Helvetica, Arial, sans-serif; //"PT Serif", Georgia, serif;
 $font-family-code       : Menlo, Monaco, "Courier New", monospace;
 
 // Break Point 

@@ -1,0 +1,24 @@
+<header>
+  <div class="container">
+    <h1>Brandon Schmalz - <small>Full Stack Web Developer</small></h1>
+  </div>
+  <nav>
+    <div class="container">
+      <a class="logo" href="/">
+        <img class="logo-img" src="{{ site.your_img }}" alt="Brandon Schmalz">
+      </a>
+      <ul class="nav" role="navigation">
+        {% assign nav_pages = (site.pages | where: "layout", "page" | sort: 'display') %}
+        {% for node in nav_pages %}
+          {% if node.title == page.title %}
+            <li class="hover-effect active">
+          {% else %}
+            <li class="hover-effect">
+          {% endif %}
+              <a href="{{ node.url }}">{{ node.title }}</a>
+            </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</header>
