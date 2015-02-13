@@ -8,6 +8,15 @@
           box-sizing: border-box;
 }
 
+.preload,
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
 html,
 body {
   margin: 0;

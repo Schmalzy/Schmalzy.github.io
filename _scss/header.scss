@@ -138,7 +138,7 @@ body.sticky-header header > .container {
   font-family: $font-family-heading;
   color: #fff;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 50px;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
@@ -148,7 +148,7 @@ body.sticky-header header > .container {
   }
 
   @media (min-width: $break-point-desktop) {
-    border: none;
+    font-size: 16px;
   }
 }
 
