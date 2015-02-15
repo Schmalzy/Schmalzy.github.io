@@ -5,7 +5,7 @@ tags:
 - Terminal
 ---
 
-I used [mdo's](https://github.com/mdo) bash profile and theme to spice up my terminal appliation. Togeather they are pretty awesome, so I thought I would share!
+I used [mdo's](https://github.com/mdo) bash profile and theme to spice up my terminal application. Togeather they are pretty awesome, so I thought I would share!
 
 1. Open Terminal
 2. Run `cd ~` to go to the home directory
