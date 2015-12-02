@@ -26,5 +26,5 @@ sass:
 #Personal Info
 your_name:          Brandon Schmalz
 your_title:         Developer
-your_img:           /www/img/me.jpg
+your_img:           /img/me.jpg
 github_feedback:    "https://github.com/Schmalzy/feedback/issues/new"
